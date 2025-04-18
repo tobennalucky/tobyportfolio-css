@@ -1,0 +1,108 @@
+#resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #D4C9BE;
+    gap: 100px;
+    padding: 50px 20px 50px 20px;
+    
+    
+}
+.hey {
+    margin-left: 20px;
+    padding: 20px 40px 20px 50px;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 20px;
+}
+
+ .desc {
+    padding: 40px 50px 10px 50px;
+    text-align: center;
+}
+
+
+.work {
+    background-color: #731482;
+    padding: 20px 20px 20px 50px;
+}
+
+.skills{
+    background-color: #731482;
+}
+
+.school {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.place {
+    font-weight: bolder;
+}
+
+
+  #projects {
+    font-family: "Poppins", sans-serif;
+    margin: 0px 0px 0 0px;
+    background-color: #F1EFEC;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    
+  }
+  .main {
+    flex: 1;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 30px;
+  }
+  
+  .tile-image {
+    height: 400px;
+    width: 100%;
+    float: left;
+    margin-right: 50px;
+  }
+  
+  .card {
+    width: 55%;
+    margin: 20px 50px 20px 50px ;
+    text-align: center;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+
+  #aboutme {
+    font-family: "Poppins", sans-serif;
+    margin: 0px 0px 0 0px;
+    background-color: #123458;
+    min-height: 70vh;
+    padding: 0%;
+  }
+
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .me-image {
+    border-radius: 50%;
+    height: 300px;
+    margin: 50px 0px 100px 0px;
+  }
+
+  #contact {
+    background-color: #030303;
+    margin: 0px 0px 0 0px;
+    padding: 0 0 0 0;
+  }
